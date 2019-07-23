@@ -27,4 +27,4 @@ COPY start.sh /start.sh
 COPY gen_config.sh /gen_config.sh
 COPY wallet.sh /wallet.sh
 RUN chmod 777 /*.sh
-CMD /start.sh nodium.conf GENX nodiumd
+CMD /start.sh nodium.conf XN nodiumd
